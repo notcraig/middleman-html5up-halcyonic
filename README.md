@@ -1,7 +1,7 @@
 # Halcyonic - An HTML5 Up theme for [Middleman](https://middlemanapp.com)
 
 Halcyon for [Middleman](https://middlemanapp.com) is a clean, simple theme based on the 2-column layout (sidebars on the right) of the HTML5 Up theme of [the same name](https://html5up.net/halcyonic).  
-Creation of the theme was another exercise in learning to create themes totally from scratch.  
+Creation of the theme was another exercise in learning to create themes from a straight HTML template.  
 As such, I made the theme (mostly) modular, so that pretty much any section of the theme can be easily edited (*or removed from the layout entirely*).  
 The top navigation menu, social links are configured in `pelicanconf.py` as is the norm.  
 The footer (*and the links and blurb therein*) are partials and can be edited separately or removed from the layout.  
