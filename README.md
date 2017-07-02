@@ -7,8 +7,7 @@ The top navigation menu, social links are configured in `pelicanconf.py` as is t
 The footer (*and the links and blurb therein*) are partials and can be edited separately or removed from the layout.  
 
 
-Something that seems to be unique (or at the very least, *uncommon*) to my themes/modification of themes is that the dates are English Ordinal (e.g., "June 1st, 2017"). See the helper in the middleman config
-
+Something that seems to be unique (or at the very least, *uncommon*) to my themes/modification of themes is that the dates are English Ordinal (e.g., "June 1st, 2017"). The "facets" gem and helper (see config.rb)
 
 
 ## Posts
