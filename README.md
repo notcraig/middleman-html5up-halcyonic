@@ -1,13 +1,12 @@
 # Halcyonic - An HTML5 Up theme for [Middleman](https://middlemanapp.com)
 
-Halcyon for [Middleman](https://middlemanapp.com) is a clean, simple theme based on the 2-column layout (sidebars on the right) of the HTML5 Up theme of [the same name](https://html5up.net/halcyonic).  
+Halcyonic for [Middleman](https://middlemanapp.com) is a clean, simple theme based on the 2-column layout (sidebars on the right) of the HTML5 Up theme of [the same name](https://html5up.net/halcyonic).  
 Creation of the theme was another exercise in learning to create themes from a straight HTML template.  
 As such, I made the theme (mostly) modular, so that pretty much any section of the theme can be easily edited (*or removed from the layout entirely*).    
 Some basic site settings, the top navigation menu, social  and links are read from yaml data files.  
-The footer (*and the links and blurb therein*) are partials and can be edited separately or removed from the layout.  
 
 
-Something that seems to be unique (or at the very least, *uncommon*) to my themes/modification of themes is that the dates are English Ordinal (e.g., "June 1st, 2017"), accomplished with the "facets" gem and a simple config helper.
+Something that seems to be unique (or at the very least, *uncommon*) to my themes/modification of themes is that the dates are English Ordinal (e.g., "June 1st, 2017"); in this case, accomplished with the "facets" gem and a simple config helper.
 
 I still suck at coding, so the links at the bottom of the page is done with a horribly hackish read of separate yaml data files instead of one very nested yaml file. However, I suppose this could be a better way if you don't want 4 columns of links (or want more than 4...).
 
