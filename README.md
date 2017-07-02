@@ -36,7 +36,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.```
 ![Main](screenshots/main.png)
 
 ### Single Article
-![article](screenshots/article.png)
+![article](screenshots/post.png)
 
 ### Archives
 ![archives](screenshots/archives.png)
