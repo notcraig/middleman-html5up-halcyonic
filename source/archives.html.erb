@@ -1,0 +1,15 @@
+---
+title: Archives
+---
+<header>
+  <h2>Archives for <%= data.site.sitename %></h2>
+</header>
+
+<% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+  <header>
+      <h2><%= year %></h2>
+      </header>
+        <% articles.each do |article| %>
+          <p><strong><%= pretty(article.date) %>:</strong> <a href="<%= article.url %>"><%= article.title %></a><%=  ' - ' + article.data.subtitle unless article.data.subtitle.nil? %></p>
+        <% end %>
+  <% end %>

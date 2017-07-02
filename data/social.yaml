@@ -1,0 +1,14 @@
+service:
+  -
+    name: Github
+    url: //github.com
+    username: github
+  -
+    name: GnuSocial
+    url: //gnu.io
+    username: GnuSocial
+
+  -
+    name: Twitter
+    url: //twitter.com
+    username: twitter

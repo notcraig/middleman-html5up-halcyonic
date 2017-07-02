@@ -1,0 +1,19 @@
+<div id="header-wrapper">
+<header id="header" class="container">
+    <div class="row">
+        <div class="12u">
+
+            <!-- Logo -->
+                <h1><a href="/" id="logo"><%= data.site.sitename %></a></h1>
+
+            <!-- Nav -->
+                <nav id="nav">
+                    <% data.nav.menu.each do |m| %>
+                    <a href="<%= m.link %>"><%= m.label %></a>
+                    <% end %>
+                </nav>
+
+        </div>
+    </div>
+</header>
+</div>

@@ -1,0 +1,10 @@
+menu:
+  -
+    label: Home
+    link: "/"
+  -
+    label: Archives
+    link: "/archives.html"
+  -
+    label: Sample Page
+    link: "/sample.html"

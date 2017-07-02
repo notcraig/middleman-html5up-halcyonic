@@ -1,0 +1,10 @@
+                    <section>
+                      <header>
+                        <h2>Recent Posts</h2>
+                      </header>
+                      <ul class="link-list">
+                        <% blog.articles[0...5].each do |article| %>
+                        <li><%= link_to article.title, article %><% if article.data.subtitle %> - <%= article.data.subtitle %><% end %></li>
+                        <% end %>
+                      </ul>
+                    </section>

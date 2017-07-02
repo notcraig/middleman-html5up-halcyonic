@@ -1,0 +1,55 @@
+
+<!DOCTYPE HTML>
+<!--
+  Halcyonic by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title><%= data.site.sitename %> - <%= current_page.data.title || data.site.subtitle %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+  </head>
+  <body class="subpage">
+    <div id="page-wrapper">
+      <!-- Header -->
+        <%= partial "partials/header" %>
+      <!-- Content -->
+        <div id="content-wrapper">
+          <div id="content">
+            <div class="container">
+              <div class="row">
+                <div class="9u 12u(mobile)">
+
+                  <!-- Main Content -->
+                    <section>
+                    <%= yield %>
+                    </section>
+
+                </div>
+                <div class="3u 12u(mobile)">
+
+                  <!-- Sidebar -->
+                    <%= partial "partials/recents" %>
+                    <%= partial "partials/social" %>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <%= partial "partials/footer" %>
+
+
+    </div>
+
+    <%= partial "partials/scripts" %>
+
+  </body>
+</html>

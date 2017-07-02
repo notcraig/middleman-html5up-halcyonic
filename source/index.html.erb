@@ -1,0 +1,29 @@
+---
+pageable: true
+---
+
+    <% page_articles.each_with_index do |article, i| %>
+      <header>
+        <h2><%= article.title %></h2>
+        <% if article.data.subtitle %><h3><%= article.data.subtitle %></h3><% end %>
+        <h4><%= pretty(article.date) %></h4>
+      </header>
+      <%= article.summary(60).gsub(/<\/?[^>]*>/, "") %>
+      <%= link_to '(Continue Reading)', article %>
+      <hr>
+    <% end %>
+    <div class="pagination">
+       <% if paginate && num_pages > 1 %>
+          
+
+             <% if prev_page %>
+                <%= link_to( '<span >&larr; Newer  ]</span>', prev_page) %>
+             <% end %>
+       <% end %>
+       <span>Page <%= page_number %> of <%= num_pages %></span>
+       <% if paginate %>
+             <% if next_page %>
+                <%= link_to( '<span >[ Older &rarr;</span>', next_page) %>
+              <% end %>
+       <% end %>
+    </div>

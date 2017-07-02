@@ -1,0 +1,14 @@
+                    <section>
+                      <header>
+                        <h2>Social</h2>
+                      </header>
+                      <p>
+                        Other places you can find me on the web.
+                      </p>
+                      <ul class="link-list">
+                        <% data.social.service.each do |s| %>
+                        <li><a href="<%= s.url %>/<%= s.username %>"><%= s.name %></a></li>
+                        
+                        <% end %>
+                      </ul>
+                    </section>

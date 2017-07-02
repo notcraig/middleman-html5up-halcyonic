@@ -1,0 +1,23 @@
+<% wrap_layout :layout do %>
+  <header>
+        <h2><%= current_article.title %></h2>
+        <% if current_article.data.subtitle %><h3><%= current_article.data.subtitle %></h3><% end %>
+        <h4><%= pretty(current_article.date) %></h4>
+      </header>
+  <%= current_article.body %>
+  <hr>
+  <div class= 'pagination'>
+  <% prev_article = current_article.article_previous %>
+                         <% if prev_article %>
+                           
+                             <span> <a href="<%= prev_article.url %>" rel="prev" title="Previous article: <%= prev_article.title %>">&larr;<%= prev_article.title %> ]</a>
+                           </span>
+                        <% end %>
+                     <% next_article = current_article.article_next %>
+                        <% if next_article %>
+                           <span>
+                           <a  href="<%= next_article.url %>" rel="next" title="Next article: <%= next_article.title %>">[ <%= next_article.title %> &rarr;</a>
+                           </span>
+                        <% end %>
+                      </div>
+<% end %>
