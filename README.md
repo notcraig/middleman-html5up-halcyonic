@@ -1,6 +1,6 @@
-# Halcyonic - An [HTML5 UP](http://html5up.net) theme for Middleman
+# Halcyonic - An HTML5 Up theme for [Middleman](https://middlemanapp.com)
 
-Halcyon for [Pelican][1] is a clean, simple theme based on the 2-column layout (sidebars on the right) of the HTML5 Up theme of [the same name][2].  
+Halcyon for [Middleman][1] is a clean, simple theme based on the 2-column layout (sidebars on the right) of the HTML5 Up theme of [the same name][2].  
 Creation of the theme was another exercise in learning to create themes totally from scratch.  
 As such, I made the theme (mostly) modular, so that pretty much any section of the theme can be easily edited (*or removed from the layout entirely*).  
 The top navigation menu, social links are configured in `pelicanconf.py` as is the norm.  
@@ -17,14 +17,18 @@ Something that seems to be unique (or at the very least, *uncommon*) to my theme
 ### Markdown
 ```markdown
 ---
-title: It's raining pelicans
+title: Man In The Middle
+subtitle: Totally optional
 date: 1999-12-31
 tags: middleman, party
-category: Purple
 ---
 
-Party's not over yet, even without a subtitle
-```
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.```
 
 ## Screenshots
 
@@ -67,7 +71,5 @@ Credits:
         Skel (skel.io)
         
 
-[1]: https://getpelican.com "Pelican"
+[1]: https://middlemanapp.com
 [2]: https://html5up.net/halcyonic
-[3]: https://github.com/getpelican/pelican-plugins/tree/master/neighbors
-[4]: https://pypi.python.org/pypi/inflect/
