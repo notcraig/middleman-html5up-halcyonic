@@ -9,6 +9,8 @@ The footer (*and the links and blurb therein*) are partials and can be edited se
 
 Something that seems to be unique (or at the very least, *uncommon*) to my themes/modification of themes is that the dates are English Ordinal (e.g., "June 1st, 2017"), accomplished with the "facets" gem and a simple config helper.
 
+I still suck at coding, so the links at the bottom of the page is done with a horribly hackish read of separate yaml data files instead of one very nested yaml file. However, I suppose this could be a better way if you don't want 4 columns of links (or want more than 4...).
+
 
 ## Posts
 
