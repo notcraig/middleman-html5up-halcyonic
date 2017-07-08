@@ -6,7 +6,7 @@ As such, I made the theme (mostly) modular, so that pretty much any section of t
 Some basic site settings, the top navigation menu, social  and links are read from yaml data files.  
 
 
-Something that seems to be unique (or at the very least, *uncommon*) to my themes/modification of themes is that the dates are English Ordinal (e.g., "June 1st, 2017"); in this case, accomplished with the "facets" gem and a simple config helper.
+Something that seems to be unique to my themes/modification of themes (or at the very least, *uncommon* in other themes) is that the dates are English Ordinal (e.g., "June 1st, 2017"); in this case, accomplished with the "facets" gem and a simple config helper.
 
 I still suck at coding, so the links at the bottom of the page is done with a horribly hackish read of separate yaml data files instead of one very nested yaml file. However, I suppose this could be a better way if you don't want 4 columns of links (or want more than 4...).
 
